@@ -1,0 +1,9 @@
+run 
+-ifn files.xstprj
+-top ethernet_echo
+-ofn thernet_echo_inferred.ngc
+-p xc3s250e-4
+-iobuf no
+-rtlview yes
+-keep_hierarchy no
+# -netlist_hierarchy rebuilt
