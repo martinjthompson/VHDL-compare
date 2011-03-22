@@ -2,10 +2,10 @@
 ###  DEFINE VARIABLES ###
 #########################
 set DesignName	"ethernet"
-set FamilyName	"SPARTAN3E"
-set DeviceName	"XC3S250E"
-set PackageName	"VQ100"
-set SpeedGrade	"-4"
+set FamilyName	"VIRTEX6"
+set DeviceName	"XC6VLX75T"
+set PackageName	"FF484"
+set SpeedGrade	"-1"
 set TopModule	""
 set EdifFile	"ethernet.edf"
 if {![file exists $DesignName.ise]} {

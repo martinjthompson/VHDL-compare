@@ -1,12 +1,12 @@
-C:\Synopsys\fpga_E201009SP11\bin\m_xilinx.exe  -prodtype synplify_pro -encrypt  -pro  -part XC3S250EVQ100-4   -maxfan 10000  -m1  -pipe   -fixgatedclocks 3 -fixgeneratedclocks 3        -reporting_ctd 0 -oedif D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.edf  -autoconstraint  -freq 1.000  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srs  -flow prepass  -gcc_prepass  -osrd  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd  -qsap  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap  -devicelib  C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim_m10i.v  -devicelib  C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim.v  -ena_vif  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\verif\ethernet.vif  -ologparam  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\syntmp\ethernet.plg  -osyn  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd  -prjdir D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\  -log  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\synlog\ethernet_prepass_property_extractor.srr 
+C:\Synopsys\fpga_E201009SP11\bin\m_xilinx.exe  -prodtype synplify_pro -encrypt  -pro  -part XC6VLX75TFF484-1   -enable_prepacking -maxfan 10000  -m1  -pipe     -fixgatedclocks 3 -fixgeneratedclocks 3      -reporting_ctd 0 -oedif D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.edf  -autoconstraint  -freq 1.000  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srs  -flow prepass  -gcc_prepass  -osrd  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd  -qsap  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap  -devicelib  C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim_m10i.v  -devicelib  C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim.v  -ena_vif  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\verif\ethernet.vif  -ologparam  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\syntmp\ethernet.plg  -osyn  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd  -prjdir D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\  -log  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\synlog\ethernet_prepass_property_extractor.srr 
 rc:0 success:1
-D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srs|i|1300797505
-D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd|o|1300797530
-D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap|o|1300797530
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srs|i|1300797987
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd|o|1300798012
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap|o|1300798012
 C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim_m10i.v|i|1289471776
 C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim.v|i|1289471776
-D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\verif\ethernet.vif|o|1300797530
-D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\syntmp\ethernet.plg|o|1300797506
-D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd|o|1300797530
-D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\synlog\ethernet_prepass_property_extractor.srr|o|1300797530
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\verif\ethernet.vif|o|1300798012
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\syntmp\ethernet.plg|o|1300797988
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd|o|1300798012
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\synlog\ethernet_prepass_property_extractor.srr|o|1300798012
 C:\Synopsys\fpga_E201009SP11\bin\m_xilinx.exe|i|1289472044

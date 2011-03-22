@@ -1,4 +1,4 @@
-C:\Synopsys\fpga_E201009SP11\bin\c_vhdl.exe  -osyn D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srs  -primux -fixsmult -sdff_counter -infer_seqShift   -nram -divnmod -loadunimacro -encrypt  -pro  -dmgen  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\dm  -lite -ll 2000   -ui -fid2 -ram -sharing on -autosm -ignore_undefined_lib  -lib work D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd -loga "D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srr"
+C:\Synopsys\fpga_E201009SP11\bin\c_vhdl.exe  -osyn D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srs  -dspmac -pqdpadd -primux -fixsmult -sdff_counter -infer_seqShift   -nram -divnmod -loadunimacro -encrypt  -pro  -dmgen  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\dm  -lite -ll 2000   -ui -fid2 -ram -sharing on -autosm -ignore_undefined_lib  -lib work D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd -loga "D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srr"
 rc:0 success:1
 D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\dm|o|1300796750
 C:\Synopsys\fpga_E201009SP11\bin\c_vhdl.exe|i|1289468398

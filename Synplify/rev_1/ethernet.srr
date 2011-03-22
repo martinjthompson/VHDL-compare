@@ -5,10 +5,10 @@
 
 #Implementation: rev_1
 
-#Tue Mar 22 12:38:16 2011
+#Tue Mar 22 12:46:18 2011
 
 $ Start of Compile
-#Tue Mar 22 12:38:16 2011
+#Tue Mar 22 12:46:18 2011
 
 Synopsys VHDL Compiler, version comp520rc, Build 021R, built Aug 17 2010
 @N|Running in 32-bit mode
@@ -17,10 +17,10 @@ Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
 @N: CD720 :"C:\Synopsys\fpga_E201009SP11\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
 @N:"D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd":14:7:14:19|Top entity is set to ethernet_echo.
 VHDL syntax check successful!
-File D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd changed - recompiling
+Options changed - recompiling
 @N: CD630 :"D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd":14:7:14:19|Synthesizing work.ethernet_echo.inferred_sm_simple 
 Post processing for work.ethernet_echo.inferred_sm_simple
-@N: CL201 :"D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd":35:13:35:19|Trying to extract state machine for register NoName
+@N: CL201 :"D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd":32:13:32:19|Trying to extract state machine for register NoName
 Extracted state machine for register NoName
 State machine has 7 reachable states with original encodings of:
    0000001
@@ -33,7 +33,7 @@ State machine has 7 reachable states with original encodings of:
 @W: CL159 :"D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd":27:8:27:19|Input tx_dst_rdy_n is unused
 @END
 Process took 0h:00m:08s realtime, 0h:00m:08s cputime
-# Tue Mar 22 12:38:25 2011
+# Tue Mar 22 12:46:27 2011
 
 ###########################################################]
 Synopsys Xilinx Technology Constraint Extraction, Version map201009rcp1, Build 000R, Built Nov 11 2010 02:29:33
@@ -43,12 +43,12 @@ Product Version E-2010.09-SP1-1
 @N: MF257 |Gated clock conversion enabled 
 Reading Xilinx I/O pad type table from file <C:\Synopsys\fpga_E201009SP11\lib\xilinx\x_io_tbl.txt> 
 Reading Xilinx Rocket I/O parameter type table from file <C:\Synopsys\fpga_E201009SP11\lib\xilinx\gttype.txt> 
-Finished Timing Extraction Phase. (Time elapsed 0h:00m:24s; Memory used current: 81MB peak: 84MB)
+Finished Timing Extraction Phase. (Time elapsed 0h:00m:24s; Memory used current: 87MB peak: 119MB)
 
 @N: BN225 |Writing default property annotation file D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap.
 Timing Extraction successful!
 Process took 0h:00m:24s realtime, 0h:00m:24s cputime
-# Tue Mar 22 12:38:50 2011
+# Tue Mar 22 12:46:52 2011
 
 ###########################################################]
 Synopsys Xilinx Technology Mapper, Version map201009rcp1, Build 000R, Built Nov 11 2010 02:29:33
@@ -64,7 +64,7 @@ Available hyper_sources - for debug and ip models
 	None Found
 
 @N: MT206 |Autoconstrain Mode is ON
-Finished RTL optimizations (Time elapsed 0h:00m:03s; Memory used current: 77MB peak: 80MB)
+Finished RTL optimizations (Time elapsed 0h:00m:03s; Memory used current: 83MB peak: 114MB)
 
 Encoding state machine work.ethernet_echo(inferred_sm_simple)-un1_j_L0[0:6]
 original code -> new code
@@ -76,7 +76,7 @@ original code -> new code
    0100000 -> 0100000
    1000000 -> 1000000
 @N: MF179 :|Found 32 bit by 32 bit '==' comparator, 'nextCtx\.un33_j'
-Finished factoring (Time elapsed 0h:01m:01s; Memory used current: 164MB peak: 166MB)
+Finished factoring (Time elapsed 0h:01m:27s; Memory used current: 189MB peak: 190MB)
 
 
 
@@ -89,155 +89,142 @@ Finished factoring (Time elapsed 0h:01m:01s; Memory used current: 164MB peak: 16
 
 ##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
 
-Finished gated-clock and generated-clock conversion (Time elapsed 0h:01m:03s; Memory used current: 126MB peak: 167MB)
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:01m:30s; Memory used current: 139MB peak: 193MB)
 
 
 Clock Buffers:
   Inserting Clock buffer for port clk,
-Finished generic timing optimizations - Pass 1 (Time elapsed 0h:01m:09s; Memory used current: 118MB peak: 167MB)
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:01m:41s; Memory used current: 141MB peak: 193MB)
 
-Starting Early Timing Optimization (Time elapsed 0h:01m:12s; Memory used current: 115MB peak: 167MB)
+Starting Early Timing Optimization (Time elapsed 0h:01m:51s; Memory used current: 138MB peak: 193MB)
 
-Finished Early Timing Optimization (Time elapsed 0h:01m:36s; Memory used current: 118MB peak: 167MB)
+Finished Early Timing Optimization (Time elapsed 0h:02m:03s; Memory used current: 139MB peak: 193MB)
 
-Finished generic timing optimizations - Pass 2 (Time elapsed 0h:01m:37s; Memory used current: 116MB peak: 167MB)
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:02m:04s; Memory used current: 136MB peak: 193MB)
 
-Finished preparing to map (Time elapsed 0h:01m:41s; Memory used current: 118MB peak: 167MB)
+Finished preparing to map (Time elapsed 0h:02m:12s; Memory used current: 139MB peak: 193MB)
 
-Finished technology mapping (Time elapsed 0h:01m:52s; Memory used current: 147MB peak: 167MB)
+Finished technology mapping (Time elapsed 0h:02m:15s; Memory used current: 149MB peak: 193MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:01m:54s		   -14.07ns		6881 /      8283
-   2		0h:01m:55s		   -10.61ns		6889 /      8283
-   3		0h:01m:56s		    -7.77ns		6889 /      8283
-   4		0h:01m:56s		    -7.62ns		6889 /      8283
-   5		0h:01m:57s		    -6.50ns		6889 /      8283
-   6		0h:01m:57s		    -6.50ns		6889 /      8283
-   7		0h:01m:58s		    -6.50ns		6889 /      8283
-   8		0h:01m:59s		    -6.50ns		6889 /      8283
+   1		0h:02m:17s		    -2.43ns		6060 /      8283
+   2		0h:02m:18s		    -2.31ns		6061 /      8283
+   3		0h:02m:18s		    -2.31ns		6060 /      8283
+   4		0h:02m:19s		    -2.31ns		6060 /      8283
 ------------------------------------------------------------
 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[9]" with 4099 loads has been replicated 3 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[0]" with 35 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[1]" with 33 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[7]" with 39 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[4]" with 37 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[9]" with 2950 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[5]" with 705 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[4]" with 705 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[0]" with 358 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[1]" with 356 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[2]" with 356 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[3]" with 356 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[6]" with 705 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[7]" with 705 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[4]" with 21 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[5]" with 18 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[0]" with 19 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[1]" with 7 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[3]" with 14 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[8]" with 16 loads has been replicated 1 time(s) to improve timing 
 Timing driven replication report
-Added 7 Registers via timing driven replication
+Added 33 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i_fast[6]" with 130 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i_fast[7]" with 130 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i_fast[5]" with 129 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i_fast[4]" with 129 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j_fast[9]" with 713 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i_fast[0]" with 43 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i_fast[1]" with 42 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i_fast[2]" with 42 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i_fast[3]" with 42 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[2]" with 5 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[9]" with 9 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[8]" with 9 loads has been replicated 1 time(s) to improve timing 
+Timing driven replication report
+Added 22 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j_fast_fast[9]" with 154 loads has been replicated 3 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[7]" with 6 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:20:36:20|Instance "echoer\.j[6]" with 5 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[10]" with 4 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[11]" with 4 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[12]" with 4 loads has been replicated 1 time(s) to improve timing 
+Timing driven replication report
+Added 8 Registers via timing driven replication
 Added 0 LUTs via timing driven replication
 
 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[17]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[16]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[17]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[16]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[19]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[18]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[19]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[18]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[20]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[21]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[20]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[21]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[23]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[22]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[23]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[22]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[25]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[24]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[25]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[24]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[31]" with 11 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[27]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[26]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[27]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[26]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[28]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[29]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[29]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[28]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[30]" with 5 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[31]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[30]" with 4 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[5]" with 23 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j[4]" with 18 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[9]" with 21 loads has been replicated 1 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j_fast[9]" with 985 loads has been replicated 3 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[2]" with 187 loads has been replicated 3 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[3]" with 183 loads has been replicated 3 time(s) to improve timing 
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:17:37:17|Instance "echoer\.i[6]" with 60 loads has been replicated 2 time(s) to improve timing 
-Timing driven replication report
-Added 46 Registers via timing driven replication
-Added 0 LUTs via timing driven replication
-
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j_fast_fast[9]" with 212 loads has been replicated 3 time(s) to improve timing 
-Timing driven replication report
-Added 3 Registers via timing driven replication
-Added 0 LUTs via timing driven replication
-
-@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":37:20:37:20|Instance "echoer\.j_fast_fast_fast[9]" with 21 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"d:\usr\mjt\home\vhdl_compare\vhdl-compare\ethernet.vhd":36:17:36:17|Instance "echoer\.i[14]" with 4 loads has been replicated 1 time(s) to improve timing 
 Timing driven replication report
 Added 1 Registers via timing driven replication
 Added 0 LUTs via timing driven replication
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:02m:20s		   -10.71ns		6905 /      8340
-   2		0h:02m:21s		   -10.47ns		6905 /      8340
-   3		0h:02m:21s		   -10.47ns		6905 /      8340
+   1		0h:02m:32s		    -2.15ns		6062 /      8347
 
-   4		0h:02m:22s		   -10.47ns		6905 /      8340
-   5		0h:02m:22s		   -10.47ns		6905 /      8340
-   6		0h:02m:23s		   -10.47ns		6905 /      8340
+   2		0h:02m:33s		    -2.15ns		6062 /      8347
+   3		0h:02m:33s		    -2.15ns		6062 /      8347
+   4		0h:02m:34s		    -2.16ns		6051 /      8347
+   5		0h:02m:35s		    -2.09ns		6049 /      8347
+   6		0h:02m:36s		    -2.03ns		6048 /      8347
+   7		0h:02m:36s		    -2.01ns		6048 /      8347
+   8		0h:02m:37s		    -2.01ns		6048 /      8347
 ------------------------------------------------------------
 
 
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:02m:25s		    -7.78ns		6903 /      8340
+   1		0h:02m:38s		    -1.81ns		6048 /      8347
 
-   2		0h:02m:26s		    -7.78ns		6903 /      8340
-   3		0h:02m:26s		    -7.78ns		6903 /      8340
-   4		0h:02m:27s		    -7.78ns		6903 /      8340
+   2		0h:02m:39s		    -1.81ns		6048 /      8347
+   3		0h:02m:40s		    -1.81ns		6048 /      8347
+   4		0h:02m:40s		    -1.81ns		6048 /      8347
 ------------------------------------------------------------
 
-Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:02m:30s; Memory used current: 148MB peak: 167MB)
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:02m:43s; Memory used current: 162MB peak: 193MB)
 
 @N: FX164 |The option to pack flops in the IOB has not been specified 
-Finished restoring hierarchy (Time elapsed 0h:02m:33s; Memory used current: 149MB peak: 167MB)
+@N: FX623 |Packing into LUT62
+Finished restoring hierarchy (Time elapsed 0h:02m:47s; Memory used current: 163MB peak: 193MB)
 
 Writing Analyst data base D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srm
-Finished Writing Netlist Databases (Time elapsed 0h:02m:36s; Memory used current: 144MB peak: 167MB)
+Finished Writing Netlist Databases (Time elapsed 0h:02m:50s; Memory used current: 155MB peak: 193MB)
 
 Writing EDIF Netlist and constraint files
 E-2010.09-SP1-1
-Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:02m:38s; Memory used current: 147MB peak: 167MB)
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:02m:52s; Memory used current: 156MB peak: 193MB)
 
-Starting Writing Gated Clock Conversion Report (Time elapsed 0h:02m:39s; Memory used current: 145MB peak: 167MB)
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:02m:52s; Memory used current: 156MB peak: 193MB)
 
 @N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
-Finished Writing Gated Clock Conversion Report (Time elapsed 0h:02m:39s; Memory used current: 145MB peak: 167MB)
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:02m:52s; Memory used current: 156MB peak: 193MB)
 
-Starting Writing Generated Clock Conversion Report (Time elapsed 0h:02m:39s; Memory used current: 145MB peak: 167MB)
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:02m:52s; Memory used current: 156MB peak: 193MB)
 
 @N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
-Finished Writing Generated Clock Conversion Report (Time elapsed 0h:02m:39s; Memory used current: 145MB peak: 167MB)
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:02m:52s; Memory used current: 156MB peak: 193MB)
 
-@W: MT420 |Found inferred clock ethernet_echo|clk with period 22.05ns. A user-defined clock should be declared on object "p:clk"
+@W: MT420 |Found inferred clock ethernet_echo|clk with period 5.19ns. A user-defined clock should be declared on object "p:clk"
 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Mar 22 12:41:31 2011
+# Timing Report written on Tue Mar 22 12:49:46 2011
 #
 
 
 Top view:               ethernet_echo
-Requested Frequency:    45.4 MHz
+Requested Frequency:    192.7 MHz
 Wire load mode:         top
 Paths requested:        5
 Constraint File(s):    
@@ -251,12 +238,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -1.304
+Worst slack in design: -0.916
 
                       Requested     Estimated     Requested     Estimated                Clock        Clock                
 Starting Clock        Frequency     Frequency     Period        Period        Slack      Type         Group                
 ---------------------------------------------------------------------------------------------------------------------------
-ethernet_echo|clk     45.4 MHz      42.8 MHz      22.047        23.352        -1.304     inferred     Autoconstr_clkgroup_0
+ethernet_echo|clk     192.7 MHz     163.8 MHz     5.190         6.106         -0.916     inferred     Autoconstr_clkgroup_0
 ===========================================================================================================================
 
 
@@ -270,7 +257,7 @@ Clocks                                |    rise  to  rise    |    fall  to  fall
 -----------------------------------------------------------------------------------------------------------------------------
 Starting           Ending             |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
 -----------------------------------------------------------------------------------------------------------------------------
-ethernet_echo|clk  ethernet_echo|clk  |  22.047      -1.304  |  No paths    -      |  No paths    -      |  No paths    -    
+ethernet_echo|clk  ethernet_echo|clk  |  5.190       -0.916  |  No paths    -      |  No paths    -      |  No paths    -    
 =============================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -293,41 +280,41 @@ Detailed Report for Clock: ethernet_echo|clk
 Starting Points with Worst Slack
 ********************************
 
-                       Starting                                                      Arrival           
-Instance               Reference             Type     Pin     Net                    Time        Slack 
-                       Clock                                                                           
--------------------------------------------------------------------------------------------------------
-echoer\.i_fast[16]     ethernet_echo|clk     FDE      Q       echoer\.i_fast[16]     0.592       -1.304
-echoer\.i_fast[17]     ethernet_echo|clk     FDE      Q       echoer\.i_fast[17]     0.592       -1.304
-echoer\.j_fast[16]     ethernet_echo|clk     FDE      Q       echoer\.j_fast[16]     0.592       -1.304
-echoer\.j_fast[17]     ethernet_echo|clk     FDE      Q       echoer\.j_fast[17]     0.592       -1.304
-echoer\.i_fast[18]     ethernet_echo|clk     FDE      Q       echoer\.i_fast[18]     0.592       -1.239
-echoer\.i_fast[19]     ethernet_echo|clk     FDE      Q       echoer\.i_fast[19]     0.592       -1.239
-echoer\.j_fast[18]     ethernet_echo|clk     FDE      Q       echoer\.j_fast[18]     0.592       -1.239
-echoer\.j_fast[19]     ethernet_echo|clk     FDE      Q       echoer\.j_fast[19]     0.592       -1.239
-echoer\.i_fast[20]     ethernet_echo|clk     FDE      Q       echoer\.i_fast[20]     0.592       -1.174
-echoer\.i_fast[21]     ethernet_echo|clk     FDE      Q       echoer\.i_fast[21]     0.592       -1.174
-=======================================================================================================
+                                Starting                                                               Arrival           
+Instance                        Reference             Type     Pin     Net                             Time        Slack 
+                                Clock                                                                                    
+-------------------------------------------------------------------------------------------------------------------------
+echoer\.j_fast_fast_fast[9]     ethernet_echo|clk     FDE      Q       echoer\.j_fast_fast_fast[9]     3.427       -0.916
+echoer\.i_fast_fast[0]          ethernet_echo|clk     FDE      Q       echoer\.i_fast_fast[0]          3.427       -0.914
+echoer\.i_fast_fast[1]          ethernet_echo|clk     FDE      Q       echoer\.i_fast_fast[1]          3.427       -0.897
+echoer\.j_fast[0]               ethernet_echo|clk     FD       Q       echoer\.j_fast[0]               3.427       -0.897
+echoer\.i[31]                   ethernet_echo|clk     FDE      Q       echoer\.i[31]                   3.427       -0.897
+echoer\.j_fast[1]               ethernet_echo|clk     FDE      Q       echoer\.j_fast[1]               3.427       -0.880
+echoer\.i_fast_fast[2]          ethernet_echo|clk     FDE      Q       echoer\.i_fast_fast[2]          3.427       -0.879
+echoer\.i_fast_fast[3]          ethernet_echo|clk     FDE      Q       echoer\.i_fast_fast[3]          3.427       -0.879
+echoer\.j_fast[2]               ethernet_echo|clk     FDE      Q       echoer\.j_fast[2]               3.427       -0.862
+echoer\.j_fast[3]               ethernet_echo|clk     FDE      Q       echoer\.j_fast[3]               3.427       -0.862
+=========================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                  Starting                                                         Required           
-Instance          Reference             Type     Pin     Net                       Time         Slack 
-                  Clock                                                                               
-------------------------------------------------------------------------------------------------------
-tx_data[2]        ethernet_echo|clk     FDE      D       echoer\.tx_data_20[2]     22.446       -1.304
-tx_data[0]        ethernet_echo|clk     FDE      D       echoer\.tx_data_20[0]     22.446       -1.051
-tx_data[5]        ethernet_echo|clk     FDE      D       echoer\.tx_data_20[5]     22.446       -0.882
-tx_data[1]        ethernet_echo|clk     FDE      D       echoer\.tx_data_20[1]     22.446       -0.714
-tx_data[3]        ethernet_echo|clk     FDE      D       echoer\.tx_data_20[3]     22.446       -0.714
-tx_data[4]        ethernet_echo|clk     FDE      D       echoer\.tx_data_20[4]     22.446       -0.714
-tx_data[6]        ethernet_echo|clk     FDE      D       echoer\.tx_data_20[6]     22.446       -0.714
-tx_data[7]        ethernet_echo|clk     FDE      D       echoer\.tx_data_20[7]     22.446       -0.714
-tx_eof_n          ethernet_echo|clk     FD       D       tx_eof_ne_0               22.446       -0.058
-echoer\.j[31]     ethernet_echo|clk     FDE      D       un34_j_s_31               21.687       1.538 
-======================================================================================================
+                 Starting                                                  Required           
+Instance         Reference             Type     Pin     Net                Time         Slack 
+                 Clock                                                                        
+----------------------------------------------------------------------------------------------
+tx_data[7]       ethernet_echo|clk     FDE      D       tx_data_RNO[7]     8.325        -0.916
+tx_data[5]       ethernet_echo|clk     FDE      D       N_116_0_i          8.325        -0.843
+tx_data[0]       ethernet_echo|clk     FDE      D       N_42933_i          8.325        -0.818
+tx_data[1]       ethernet_echo|clk     FDE      D       N_39168_i          8.325        -0.818
+tx_data[2]       ethernet_echo|clk     FDE      D       N_35403_i          8.325        -0.818
+tx_data[3]       ethernet_echo|clk     FDE      D       N_31636_i          8.325        -0.818
+tx_data[4]       ethernet_echo|clk     FDE      D       N_27870_i          8.325        -0.818
+tx_data[6]       ethernet_echo|clk     FDE      D       N_122_0_i          8.325        -0.801
+tx_eof_n         ethernet_echo|clk     FD       D       tx_eof_ne_0        8.325        0.134 
+echoer\.j[9]     ethernet_echo|clk     FDE      D       un34_j_s_9         8.246        1.087 
+==============================================================================================
 
 
 
@@ -336,423 +323,679 @@ Worst Path Information
 
 
 Path information for path number 1: 
-      Requested Period:                      22.047
-    - Setup time:                            -0.399
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         22.446
+      Requested Period:                      5.190
+    - Setup time:                            -0.045
+    + Clock delay at ending point:           3.090
+    = Required time:                         8.325
 
-    - Propagation time:                      23.750
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -1.304
+    - Propagation time:                      6.151
+    - Clock delay at starting point:         3.090
+    = Slack (critical) :                     -0.916
 
-    Number of logic level(s):                19
-    Starting point:                          echoer\.i_fast[16] / Q
-    Ending point:                            tx_data[2] / D
+    Number of logic level(s):                22
+    Starting point:                          echoer\.j_fast_fast_fast[9] / Q
+    Ending point:                            tx_data[7] / D
     The start point is clocked by            ethernet_echo|clk [rising] on pin C
     The end   point is clocked by            ethernet_echo|clk [rising] on pin C
 
 Instance / Net                              Pin      Pin               Arrival     No. of    
 Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
 ---------------------------------------------------------------------------------------------
-echoer\.i_fast[16]              FDE         Q        Out     0.592     0.592       -         
-echoer\.i_fast[16]              Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_lt16        LUT4        I0       In      -         1.302       -         
-echoer\.main\.un8_j_lt16        LUT4        O        Out     0.759     2.061       -         
-echoer\.main\.un8_j_lt16        Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     DI       In      -         2.771       -         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     1.091     3.862       -         
+echoer\.j_fast_fast_fast[9]     FDE         Q        Out     0.337     3.427       -         
+echoer\.j_fast_fast_fast[9]     Net         -        -       0.578     -           17        
+echoer\.main\.un8_j_df8         LUT4        I3       In      -         4.005       -         
+echoer\.main\.un8_j_df8         LUT4        O        Out     0.190     4.194       -         
+echoer\.main\.un8_j_df8         Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     S        In      -         4.194       -         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     LO       Out     0.255     4.450       -         
+echoer\.main\.un8_j_cry[8]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     CI       In      -         4.450       -         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     LO       Out     0.019     4.468       -         
+echoer\.main\.un8_j_cry[10]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     CI       In      -         4.468       -         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     LO       Out     0.019     4.487       -         
+echoer\.main\.un8_j_cry[12]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     CI       In      -         4.487       -         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     LO       Out     0.019     4.505       -         
+echoer\.main\.un8_j_cry[14]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     CI       In      -         4.505       -         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     0.019     4.524       -         
 echoer\.main\.un8_j_cry[16]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         3.862       -         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.065     3.927       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         4.524       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.019     4.543       -         
 echoer\.main\.un8_j_cry[18]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         3.927       -         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.065     3.992       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         4.543       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.019     4.561       -         
 echoer\.main\.un8_j_cry[20]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         3.992       -         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.065     4.057       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         4.561       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.019     4.580       -         
 echoer\.main\.un8_j_cry[22]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.057       -         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.065     4.122       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.580       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.019     4.598       -         
 echoer\.main\.un8_j_cry[24]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.122       -         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.065     4.187       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.598       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.019     4.617       -         
 echoer\.main\.un8_j_cry[26]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.187       -         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.065     4.252       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.617       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.019     4.636       -         
 echoer\.main\.un8_j_cry[28]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.252       -         
-echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.065     4.317       -         
-echoer\.main\.un8_j             Net         -        -       0.000     -           7         
-N_21503_i_i_o2_m1_0_a2          MUXCY       CI       In      -         4.317       -         
-N_21503_i_i_o2_m1_0_a2          MUXCY       O        Out     0.065     4.382       -         
-N_21503_i_i_o2_m1_0_a2          Net         -        -       9.433     -           4181      
-nextCtx\.j_14[6]                LUT2        I0       In      -         13.815      -         
-nextCtx\.j_14[6]                LUT2        O        Out     0.759     14.574      -         
-nextCtx\.j_14[6]                Net         -        -       2.109     -           511       
-nextCtx\.tx_data_17_142[2]      MUXF5       S        In      -         16.683      -         
-nextCtx\.tx_data_17_142[2]      MUXF5       O        Out     0.587     17.270      -         
-N_1132                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_158[2]      MUXF6       I0       In      -         17.270      -         
-nextCtx\.tx_data_17_158[2]      MUXF6       O        Out     0.369     17.639      -         
-N_1260                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_190[2]      MUXF7       I0       In      -         17.639      -         
-nextCtx\.tx_data_17_190[2]      MUXF7       O        Out     0.384     18.023      -         
-N_1516                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_254[2]      MUXF8       I1       In      -         18.023      -         
-nextCtx\.tx_data_17_254[2]      MUXF8       O        Out     0.384     18.407      -         
-N_2028                          Net         -        -       0.710     -           1         
-echoer\.tx_data_20_a3_a4[2]     LUT4        I1       In      -         19.117      -         
-echoer\.tx_data_20_a3_a4[2]     LUT4        O        Out     0.759     19.876      -         
-echoer\.tx_data_20_a3_a4[2]     Net         -        -       0.532     -           1         
-tx_data_RNO_4[2]                LUT3_L      I0       In      -         20.409      -         
-tx_data_RNO_4[2]                LUT3_L      LO       Out     0.759     21.168      -         
-echoer\.tx_data_1_1[2]          Net         -        -       0.532     -           1         
-tx_data_RNO_1[2]                LUT4        I2       In      -         21.700      -         
-tx_data_RNO_1[2]                LUT4        O        Out     0.759     22.459      -         
-echoer\.tx_data_1[2]            Net         -        -       0.532     -           1         
-tx_data_RNO[2]                  LUT4_L      I1       In      -         22.991      -         
-tx_data_RNO[2]                  LUT4_L      LO       Out     0.759     23.750      -         
-echoer\.tx_data_20[2]           Net         -        -       0.000     -           1         
-tx_data[2]                      FDE         D        In      -         23.750      -         
+echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.636       -         
+echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.019     4.654       -         
+echoer\.main\.un8_j             Net         -        -       1.278     -           3017      
+echoer\.j_RNIJDNK_0[8]          LUT4        I3       In      -         5.932       -         
+echoer\.j_RNIJDNK_0[8]          LUT4        O        Out     0.075     6.007       -         
+nextCtx\.j_14[8]                Net         -        -       0.934     -           1300      
+tx_data_RNO_372[7]              LUT6        I5       In      -         6.941       -         
+tx_data_RNO_372[7]              LUT6        O        Out     0.075     7.016       -         
+N_207_0                         Net         -        -       0.225     -           1         
+tx_data_RNO_147[7]              LUT3_L      I1       In      -         7.241       -         
+tx_data_RNO_147[7]              LUT3_L      LO       Out     0.150     7.391       -         
+N_46708                         Net         -        -       0.225     -           1         
+tx_data_RNO_62[7]               LUT5_L      I4       In      -         7.616       -         
+tx_data_RNO_62[7]               LUT5_L      LO       Out     0.109     7.725       -         
+N_46716                         Net         -        -       0.225     -           1         
+tx_data_RNO_25[7]               LUT6_L      I5       In      -         7.950       -         
+tx_data_RNO_25[7]               LUT6_L      LO       Out     0.175     8.125       -         
+N_110_0                         Net         -        -       0.225     -           1         
+tx_data_RNO_9[7]                LUT6        I5       In      -         8.350       -         
+tx_data_RNO_9[7]                LUT6        O        Out     0.200     8.550       -         
+N_47512                         Net         -        -       0.000     -           1         
+tx_data_RNO_5[7]                MUXF7       I1       In      -         8.550       -         
+tx_data_RNO_5[7]                MUXF7       O        Out     0.261     8.811       -         
+m98_s_0muxnet_1_0               Net         -        -       0.000     -           1         
+tx_data_RNO_1[7]                MUXF8       I1       In      -         8.811       -         
+tx_data_RNO_1[7]                MUXF8       O        Out     0.049     8.860       -         
+N_46684                         Net         -        -       0.306     -           1         
+tx_data_RNO[7]                  LUT5_L      I4       In      -         9.166       -         
+tx_data_RNO[7]                  LUT5_L      LO       Out     0.075     9.241       -         
+tx_data_RNO[7]                  Net         -        -       0.000     -           1         
+tx_data[7]                      FDE         D        In      -         9.241       -         
 =============================================================================================
-Total path delay (propagation time + setup) of 23.351 is 8.082(34.6%) logic and 15.270(65.4%) route.
+Total path delay (propagation time + setup) of 6.106 is 2.111(34.6%) logic and 3.996(65.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Start clock path:
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                            Type                  Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+Start Clock :                   ethernet_echo|clk                                                      
+------------                                                                                           
+clk                             Port                  clk      In      -         0.000       -         
+clk                             Net                   -        -       0.000     -           1         
+clk_ibuf_iso                    IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso                    IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso                    Net                   -        -       0.600     -           1         
+clk_ibuf                        BUFG                  I        In      -         1.382       -         
+clk_ibuf                        BUFG                  O        Out     0.092     1.474       -         
+clk_c                           Net                   -        -       1.616     -           8347      
+echoer\.j_fast_fast_fast[9]     FDE                   C        In      -         3.090       -         
+=======================================================================================================
+
+
+End clock path:
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name               Type                  Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+Start Clock :      ethernet_echo|clk                                                      
+------------                                                                              
+clk                Port                  clk      In      -         0.000       -         
+clk                Net                   -        -       0.000     -           1         
+clk_ibuf_iso       IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso       IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso       Net                   -        -       0.600     -           1         
+clk_ibuf           BUFG                  I        In      -         1.382       -         
+clk_ibuf           BUFG                  O        Out     0.092     1.474       -         
+clk_c              Net                   -        -       1.616     -           8347      
+tx_data[7]         FDE                   C        In      -         3.090       -         
+==========================================================================================
 
 
 Path information for path number 2: 
-      Requested Period:                      22.047
-    - Setup time:                            -0.399
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         22.446
+      Requested Period:                      5.190
+    - Setup time:                            -0.045
+    + Clock delay at ending point:           3.090
+    = Required time:                         8.325
 
-    - Propagation time:                      23.750
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -1.304
+    - Propagation time:                      6.151
+    - Clock delay at starting point:         3.090
+    = Slack (critical) :                     -0.916
 
-    Number of logic level(s):                19
-    Starting point:                          echoer\.i_fast[17] / Q
-    Ending point:                            tx_data[2] / D
+    Number of logic level(s):                22
+    Starting point:                          echoer\.j_fast_fast_fast[9] / Q
+    Ending point:                            tx_data[7] / D
     The start point is clocked by            ethernet_echo|clk [rising] on pin C
     The end   point is clocked by            ethernet_echo|clk [rising] on pin C
 
 Instance / Net                              Pin      Pin               Arrival     No. of    
 Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
 ---------------------------------------------------------------------------------------------
-echoer\.i_fast[17]              FDE         Q        Out     0.592     0.592       -         
-echoer\.i_fast[17]              Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_lt16        LUT4        I1       In      -         1.302       -         
-echoer\.main\.un8_j_lt16        LUT4        O        Out     0.759     2.061       -         
-echoer\.main\.un8_j_lt16        Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     DI       In      -         2.771       -         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     1.091     3.862       -         
+echoer\.j_fast_fast_fast[9]     FDE         Q        Out     0.337     3.427       -         
+echoer\.j_fast_fast_fast[9]     Net         -        -       0.578     -           17        
+echoer\.main\.un8_j_df8         LUT4        I3       In      -         4.005       -         
+echoer\.main\.un8_j_df8         LUT4        O        Out     0.190     4.194       -         
+echoer\.main\.un8_j_df8         Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     S        In      -         4.194       -         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     LO       Out     0.255     4.450       -         
+echoer\.main\.un8_j_cry[8]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     CI       In      -         4.450       -         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     LO       Out     0.019     4.468       -         
+echoer\.main\.un8_j_cry[10]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     CI       In      -         4.468       -         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     LO       Out     0.019     4.487       -         
+echoer\.main\.un8_j_cry[12]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     CI       In      -         4.487       -         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     LO       Out     0.019     4.505       -         
+echoer\.main\.un8_j_cry[14]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     CI       In      -         4.505       -         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     0.019     4.524       -         
 echoer\.main\.un8_j_cry[16]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         3.862       -         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.065     3.927       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         4.524       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.019     4.543       -         
 echoer\.main\.un8_j_cry[18]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         3.927       -         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.065     3.992       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         4.543       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.019     4.561       -         
 echoer\.main\.un8_j_cry[20]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         3.992       -         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.065     4.057       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         4.561       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.019     4.580       -         
 echoer\.main\.un8_j_cry[22]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.057       -         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.065     4.122       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.580       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.019     4.598       -         
 echoer\.main\.un8_j_cry[24]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.122       -         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.065     4.187       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.598       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.019     4.617       -         
 echoer\.main\.un8_j_cry[26]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.187       -         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.065     4.252       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.617       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.019     4.636       -         
 echoer\.main\.un8_j_cry[28]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.252       -         
-echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.065     4.317       -         
-echoer\.main\.un8_j             Net         -        -       0.000     -           7         
-N_21503_i_i_o2_m1_0_a2          MUXCY       CI       In      -         4.317       -         
-N_21503_i_i_o2_m1_0_a2          MUXCY       O        Out     0.065     4.382       -         
-N_21503_i_i_o2_m1_0_a2          Net         -        -       9.433     -           4181      
-nextCtx\.j_14[6]                LUT2        I0       In      -         13.815      -         
-nextCtx\.j_14[6]                LUT2        O        Out     0.759     14.574      -         
-nextCtx\.j_14[6]                Net         -        -       2.109     -           511       
-nextCtx\.tx_data_17_142[2]      MUXF5       S        In      -         16.683      -         
-nextCtx\.tx_data_17_142[2]      MUXF5       O        Out     0.587     17.270      -         
-N_1132                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_158[2]      MUXF6       I0       In      -         17.270      -         
-nextCtx\.tx_data_17_158[2]      MUXF6       O        Out     0.369     17.639      -         
-N_1260                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_190[2]      MUXF7       I0       In      -         17.639      -         
-nextCtx\.tx_data_17_190[2]      MUXF7       O        Out     0.384     18.023      -         
-N_1516                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_254[2]      MUXF8       I1       In      -         18.023      -         
-nextCtx\.tx_data_17_254[2]      MUXF8       O        Out     0.384     18.407      -         
-N_2028                          Net         -        -       0.710     -           1         
-echoer\.tx_data_20_a3_a4[2]     LUT4        I1       In      -         19.117      -         
-echoer\.tx_data_20_a3_a4[2]     LUT4        O        Out     0.759     19.876      -         
-echoer\.tx_data_20_a3_a4[2]     Net         -        -       0.532     -           1         
-tx_data_RNO_4[2]                LUT3_L      I0       In      -         20.409      -         
-tx_data_RNO_4[2]                LUT3_L      LO       Out     0.759     21.168      -         
-echoer\.tx_data_1_1[2]          Net         -        -       0.532     -           1         
-tx_data_RNO_1[2]                LUT4        I2       In      -         21.700      -         
-tx_data_RNO_1[2]                LUT4        O        Out     0.759     22.459      -         
-echoer\.tx_data_1[2]            Net         -        -       0.532     -           1         
-tx_data_RNO[2]                  LUT4_L      I1       In      -         22.991      -         
-tx_data_RNO[2]                  LUT4_L      LO       Out     0.759     23.750      -         
-echoer\.tx_data_20[2]           Net         -        -       0.000     -           1         
-tx_data[2]                      FDE         D        In      -         23.750      -         
+echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.636       -         
+echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.019     4.654       -         
+echoer\.main\.un8_j             Net         -        -       1.278     -           3017      
+echoer\.j_RNIJDNK_0[8]          LUT4        I3       In      -         5.932       -         
+echoer\.j_RNIJDNK_0[8]          LUT4        O        Out     0.075     6.007       -         
+nextCtx\.j_14[8]                Net         -        -       0.934     -           1300      
+tx_data_RNO_373[7]              LUT6        I5       In      -         6.941       -         
+tx_data_RNO_373[7]              LUT6        O        Out     0.075     7.016       -         
+N_46707                         Net         -        -       0.225     -           1         
+tx_data_RNO_147[7]              LUT3_L      I2       In      -         7.241       -         
+tx_data_RNO_147[7]              LUT3_L      LO       Out     0.150     7.391       -         
+N_46708                         Net         -        -       0.225     -           1         
+tx_data_RNO_62[7]               LUT5_L      I4       In      -         7.616       -         
+tx_data_RNO_62[7]               LUT5_L      LO       Out     0.109     7.725       -         
+N_46716                         Net         -        -       0.225     -           1         
+tx_data_RNO_25[7]               LUT6_L      I5       In      -         7.950       -         
+tx_data_RNO_25[7]               LUT6_L      LO       Out     0.175     8.125       -         
+N_110_0                         Net         -        -       0.225     -           1         
+tx_data_RNO_9[7]                LUT6        I5       In      -         8.350       -         
+tx_data_RNO_9[7]                LUT6        O        Out     0.200     8.550       -         
+N_47512                         Net         -        -       0.000     -           1         
+tx_data_RNO_5[7]                MUXF7       I1       In      -         8.550       -         
+tx_data_RNO_5[7]                MUXF7       O        Out     0.261     8.811       -         
+m98_s_0muxnet_1_0               Net         -        -       0.000     -           1         
+tx_data_RNO_1[7]                MUXF8       I1       In      -         8.811       -         
+tx_data_RNO_1[7]                MUXF8       O        Out     0.049     8.860       -         
+N_46684                         Net         -        -       0.306     -           1         
+tx_data_RNO[7]                  LUT5_L      I4       In      -         9.166       -         
+tx_data_RNO[7]                  LUT5_L      LO       Out     0.075     9.241       -         
+tx_data_RNO[7]                  Net         -        -       0.000     -           1         
+tx_data[7]                      FDE         D        In      -         9.241       -         
 =============================================================================================
-Total path delay (propagation time + setup) of 23.351 is 8.082(34.6%) logic and 15.270(65.4%) route.
+Total path delay (propagation time + setup) of 6.106 is 2.111(34.6%) logic and 3.996(65.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Start clock path:
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                            Type                  Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+Start Clock :                   ethernet_echo|clk                                                      
+------------                                                                                           
+clk                             Port                  clk      In      -         0.000       -         
+clk                             Net                   -        -       0.000     -           1         
+clk_ibuf_iso                    IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso                    IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso                    Net                   -        -       0.600     -           1         
+clk_ibuf                        BUFG                  I        In      -         1.382       -         
+clk_ibuf                        BUFG                  O        Out     0.092     1.474       -         
+clk_c                           Net                   -        -       1.616     -           8347      
+echoer\.j_fast_fast_fast[9]     FDE                   C        In      -         3.090       -         
+=======================================================================================================
+
+
+End clock path:
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name               Type                  Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+Start Clock :      ethernet_echo|clk                                                      
+------------                                                                              
+clk                Port                  clk      In      -         0.000       -         
+clk                Net                   -        -       0.000     -           1         
+clk_ibuf_iso       IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso       IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso       Net                   -        -       0.600     -           1         
+clk_ibuf           BUFG                  I        In      -         1.382       -         
+clk_ibuf           BUFG                  O        Out     0.092     1.474       -         
+clk_c              Net                   -        -       1.616     -           8347      
+tx_data[7]         FDE                   C        In      -         3.090       -         
+==========================================================================================
 
 
 Path information for path number 3: 
-      Requested Period:                      22.047
-    - Setup time:                            -0.399
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         22.446
+      Requested Period:                      5.190
+    - Setup time:                            -0.045
+    + Clock delay at ending point:           3.090
+    = Required time:                         8.325
 
-    - Propagation time:                      23.750
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -1.304
+    - Propagation time:                      6.149
+    - Clock delay at starting point:         3.090
+    = Slack (non-critical) :                 -0.914
 
-    Number of logic level(s):                19
-    Starting point:                          echoer\.j_fast[16] / Q
-    Ending point:                            tx_data[2] / D
+    Number of logic level(s):                26
+    Starting point:                          echoer\.i_fast_fast[0] / Q
+    Ending point:                            tx_data[7] / D
     The start point is clocked by            ethernet_echo|clk [rising] on pin C
     The end   point is clocked by            ethernet_echo|clk [rising] on pin C
 
 Instance / Net                              Pin      Pin               Arrival     No. of    
 Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
 ---------------------------------------------------------------------------------------------
-echoer\.j_fast[16]              FDE         Q        Out     0.592     0.592       -         
-echoer\.j_fast[16]              Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_lt16        LUT4        I2       In      -         1.302       -         
-echoer\.main\.un8_j_lt16        LUT4        O        Out     0.759     2.061       -         
-echoer\.main\.un8_j_lt16        Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     DI       In      -         2.771       -         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     1.091     3.862       -         
+echoer\.i_fast_fast[0]          FDE         Q        Out     0.337     3.427       -         
+echoer\.i_fast_fast[0]          Net         -        -       0.425     -           4         
+echoer\.main\.un8_j_df0         LUT4        I0       In      -         3.852       -         
+echoer\.main\.un8_j_df0         LUT4        O        Out     0.266     4.118       -         
+echoer\.main\.un8_j_df0         Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[0]      MUXCY_L     S        In      -         4.118       -         
+echoer\.main\.un8_j_cry[0]      MUXCY_L     LO       Out     0.255     4.373       -         
+echoer\.main\.un8_j_cry[0]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[2]      MUXCY_L     CI       In      -         4.373       -         
+echoer\.main\.un8_j_cry[2]      MUXCY_L     LO       Out     0.019     4.392       -         
+echoer\.main\.un8_j_cry[2]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[4]      MUXCY_L     CI       In      -         4.392       -         
+echoer\.main\.un8_j_cry[4]      MUXCY_L     LO       Out     0.019     4.410       -         
+echoer\.main\.un8_j_cry[4]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[6]      MUXCY_L     CI       In      -         4.410       -         
+echoer\.main\.un8_j_cry[6]      MUXCY_L     LO       Out     0.019     4.429       -         
+echoer\.main\.un8_j_cry[6]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     CI       In      -         4.429       -         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     LO       Out     0.019     4.447       -         
+echoer\.main\.un8_j_cry[8]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     CI       In      -         4.447       -         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     LO       Out     0.019     4.466       -         
+echoer\.main\.un8_j_cry[10]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     CI       In      -         4.466       -         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     LO       Out     0.019     4.485       -         
+echoer\.main\.un8_j_cry[12]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     CI       In      -         4.485       -         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     LO       Out     0.019     4.503       -         
+echoer\.main\.un8_j_cry[14]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     CI       In      -         4.503       -         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     0.019     4.522       -         
 echoer\.main\.un8_j_cry[16]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         3.862       -         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.065     3.927       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         4.522       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.019     4.540       -         
 echoer\.main\.un8_j_cry[18]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         3.927       -         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.065     3.992       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         4.540       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.019     4.559       -         
 echoer\.main\.un8_j_cry[20]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         3.992       -         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.065     4.057       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         4.559       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.019     4.578       -         
 echoer\.main\.un8_j_cry[22]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.057       -         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.065     4.122       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.578       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.019     4.596       -         
 echoer\.main\.un8_j_cry[24]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.122       -         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.065     4.187       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.596       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.019     4.615       -         
 echoer\.main\.un8_j_cry[26]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.187       -         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.065     4.252       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.615       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.019     4.633       -         
 echoer\.main\.un8_j_cry[28]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.252       -         
-echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.065     4.317       -         
-echoer\.main\.un8_j             Net         -        -       0.000     -           7         
-N_21503_i_i_o2_m1_0_a2          MUXCY       CI       In      -         4.317       -         
-N_21503_i_i_o2_m1_0_a2          MUXCY       O        Out     0.065     4.382       -         
-N_21503_i_i_o2_m1_0_a2          Net         -        -       9.433     -           4181      
-nextCtx\.j_14[6]                LUT2        I0       In      -         13.815      -         
-nextCtx\.j_14[6]                LUT2        O        Out     0.759     14.574      -         
-nextCtx\.j_14[6]                Net         -        -       2.109     -           511       
-nextCtx\.tx_data_17_142[2]      MUXF5       S        In      -         16.683      -         
-nextCtx\.tx_data_17_142[2]      MUXF5       O        Out     0.587     17.270      -         
-N_1132                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_158[2]      MUXF6       I0       In      -         17.270      -         
-nextCtx\.tx_data_17_158[2]      MUXF6       O        Out     0.369     17.639      -         
-N_1260                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_190[2]      MUXF7       I0       In      -         17.639      -         
-nextCtx\.tx_data_17_190[2]      MUXF7       O        Out     0.384     18.023      -         
-N_1516                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_254[2]      MUXF8       I1       In      -         18.023      -         
-nextCtx\.tx_data_17_254[2]      MUXF8       O        Out     0.384     18.407      -         
-N_2028                          Net         -        -       0.710     -           1         
-echoer\.tx_data_20_a3_a4[2]     LUT4        I1       In      -         19.117      -         
-echoer\.tx_data_20_a3_a4[2]     LUT4        O        Out     0.759     19.876      -         
-echoer\.tx_data_20_a3_a4[2]     Net         -        -       0.532     -           1         
-tx_data_RNO_4[2]                LUT3_L      I0       In      -         20.409      -         
-tx_data_RNO_4[2]                LUT3_L      LO       Out     0.759     21.168      -         
-echoer\.tx_data_1_1[2]          Net         -        -       0.532     -           1         
-tx_data_RNO_1[2]                LUT4        I2       In      -         21.700      -         
-tx_data_RNO_1[2]                LUT4        O        Out     0.759     22.459      -         
-echoer\.tx_data_1[2]            Net         -        -       0.532     -           1         
-tx_data_RNO[2]                  LUT4_L      I1       In      -         22.991      -         
-tx_data_RNO[2]                  LUT4_L      LO       Out     0.759     23.750      -         
-echoer\.tx_data_20[2]           Net         -        -       0.000     -           1         
-tx_data[2]                      FDE         D        In      -         23.750      -         
+echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.633       -         
+echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.019     4.652       -         
+echoer\.main\.un8_j             Net         -        -       1.278     -           3017      
+echoer\.j_RNIJDNK_0[8]          LUT4        I3       In      -         5.930       -         
+echoer\.j_RNIJDNK_0[8]          LUT4        O        Out     0.075     6.005       -         
+nextCtx\.j_14[8]                Net         -        -       0.934     -           1300      
+tx_data_RNO_372[7]              LUT6        I5       In      -         6.939       -         
+tx_data_RNO_372[7]              LUT6        O        Out     0.075     7.014       -         
+N_207_0                         Net         -        -       0.225     -           1         
+tx_data_RNO_147[7]              LUT3_L      I1       In      -         7.239       -         
+tx_data_RNO_147[7]              LUT3_L      LO       Out     0.150     7.389       -         
+N_46708                         Net         -        -       0.225     -           1         
+tx_data_RNO_62[7]               LUT5_L      I4       In      -         7.614       -         
+tx_data_RNO_62[7]               LUT5_L      LO       Out     0.109     7.723       -         
+N_46716                         Net         -        -       0.225     -           1         
+tx_data_RNO_25[7]               LUT6_L      I5       In      -         7.947       -         
+tx_data_RNO_25[7]               LUT6_L      LO       Out     0.175     8.123       -         
+N_110_0                         Net         -        -       0.225     -           1         
+tx_data_RNO_9[7]                LUT6        I5       In      -         8.348       -         
+tx_data_RNO_9[7]                LUT6        O        Out     0.200     8.548       -         
+N_47512                         Net         -        -       0.000     -           1         
+tx_data_RNO_5[7]                MUXF7       I1       In      -         8.548       -         
+tx_data_RNO_5[7]                MUXF7       O        Out     0.261     8.809       -         
+m98_s_0muxnet_1_0               Net         -        -       0.000     -           1         
+tx_data_RNO_1[7]                MUXF8       I1       In      -         8.809       -         
+tx_data_RNO_1[7]                MUXF8       O        Out     0.049     8.858       -         
+N_46684                         Net         -        -       0.306     -           1         
+tx_data_RNO[7]                  LUT5_L      I4       In      -         9.164       -         
+tx_data_RNO[7]                  LUT5_L      LO       Out     0.075     9.239       -         
+tx_data_RNO[7]                  Net         -        -       0.000     -           1         
+tx_data[7]                      FDE         D        In      -         9.239       -         
 =============================================================================================
-Total path delay (propagation time + setup) of 23.351 is 8.082(34.6%) logic and 15.270(65.4%) route.
+Total path delay (propagation time + setup) of 6.104 is 2.261(37.0%) logic and 3.843(63.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Start clock path:
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                       Type                  Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+Start Clock :              ethernet_echo|clk                                                      
+------------                                                                                      
+clk                        Port                  clk      In      -         0.000       -         
+clk                        Net                   -        -       0.000     -           1         
+clk_ibuf_iso               IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso               IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso               Net                   -        -       0.600     -           1         
+clk_ibuf                   BUFG                  I        In      -         1.382       -         
+clk_ibuf                   BUFG                  O        Out     0.092     1.474       -         
+clk_c                      Net                   -        -       1.616     -           8347      
+echoer\.i_fast_fast[0]     FDE                   C        In      -         3.090       -         
+==================================================================================================
+
+
+End clock path:
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name               Type                  Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+Start Clock :      ethernet_echo|clk                                                      
+------------                                                                              
+clk                Port                  clk      In      -         0.000       -         
+clk                Net                   -        -       0.000     -           1         
+clk_ibuf_iso       IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso       IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso       Net                   -        -       0.600     -           1         
+clk_ibuf           BUFG                  I        In      -         1.382       -         
+clk_ibuf           BUFG                  O        Out     0.092     1.474       -         
+clk_c              Net                   -        -       1.616     -           8347      
+tx_data[7]         FDE                   C        In      -         3.090       -         
+==========================================================================================
 
 
 Path information for path number 4: 
-      Requested Period:                      22.047
-    - Setup time:                            -0.399
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         22.446
+      Requested Period:                      5.190
+    - Setup time:                            -0.045
+    + Clock delay at ending point:           3.090
+    = Required time:                         8.325
 
-    - Propagation time:                      23.750
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -1.304
+    - Propagation time:                      6.149
+    - Clock delay at starting point:         3.090
+    = Slack (non-critical) :                 -0.914
 
-    Number of logic level(s):                19
-    Starting point:                          echoer\.j_fast[17] / Q
-    Ending point:                            tx_data[2] / D
+    Number of logic level(s):                26
+    Starting point:                          echoer\.i_fast_fast[0] / Q
+    Ending point:                            tx_data[7] / D
     The start point is clocked by            ethernet_echo|clk [rising] on pin C
     The end   point is clocked by            ethernet_echo|clk [rising] on pin C
 
 Instance / Net                              Pin      Pin               Arrival     No. of    
 Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
 ---------------------------------------------------------------------------------------------
-echoer\.j_fast[17]              FDE         Q        Out     0.592     0.592       -         
-echoer\.j_fast[17]              Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_lt16        LUT4        I3       In      -         1.302       -         
-echoer\.main\.un8_j_lt16        LUT4        O        Out     0.759     2.061       -         
-echoer\.main\.un8_j_lt16        Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     DI       In      -         2.771       -         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     1.091     3.862       -         
+echoer\.i_fast_fast[0]          FDE         Q        Out     0.337     3.427       -         
+echoer\.i_fast_fast[0]          Net         -        -       0.425     -           4         
+echoer\.main\.un8_j_df0         LUT4        I0       In      -         3.852       -         
+echoer\.main\.un8_j_df0         LUT4        O        Out     0.266     4.118       -         
+echoer\.main\.un8_j_df0         Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[0]      MUXCY_L     S        In      -         4.118       -         
+echoer\.main\.un8_j_cry[0]      MUXCY_L     LO       Out     0.255     4.373       -         
+echoer\.main\.un8_j_cry[0]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[2]      MUXCY_L     CI       In      -         4.373       -         
+echoer\.main\.un8_j_cry[2]      MUXCY_L     LO       Out     0.019     4.392       -         
+echoer\.main\.un8_j_cry[2]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[4]      MUXCY_L     CI       In      -         4.392       -         
+echoer\.main\.un8_j_cry[4]      MUXCY_L     LO       Out     0.019     4.410       -         
+echoer\.main\.un8_j_cry[4]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[6]      MUXCY_L     CI       In      -         4.410       -         
+echoer\.main\.un8_j_cry[6]      MUXCY_L     LO       Out     0.019     4.429       -         
+echoer\.main\.un8_j_cry[6]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     CI       In      -         4.429       -         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     LO       Out     0.019     4.447       -         
+echoer\.main\.un8_j_cry[8]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     CI       In      -         4.447       -         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     LO       Out     0.019     4.466       -         
+echoer\.main\.un8_j_cry[10]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     CI       In      -         4.466       -         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     LO       Out     0.019     4.485       -         
+echoer\.main\.un8_j_cry[12]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     CI       In      -         4.485       -         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     LO       Out     0.019     4.503       -         
+echoer\.main\.un8_j_cry[14]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     CI       In      -         4.503       -         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     0.019     4.522       -         
 echoer\.main\.un8_j_cry[16]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         3.862       -         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.065     3.927       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         4.522       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.019     4.540       -         
 echoer\.main\.un8_j_cry[18]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         3.927       -         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.065     3.992       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         4.540       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.019     4.559       -         
 echoer\.main\.un8_j_cry[20]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         3.992       -         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.065     4.057       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         4.559       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.019     4.578       -         
 echoer\.main\.un8_j_cry[22]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.057       -         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.065     4.122       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.578       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.019     4.596       -         
 echoer\.main\.un8_j_cry[24]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.122       -         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.065     4.187       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.596       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.019     4.615       -         
 echoer\.main\.un8_j_cry[26]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.187       -         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.065     4.252       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.615       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.019     4.633       -         
 echoer\.main\.un8_j_cry[28]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.252       -         
-echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.065     4.317       -         
-echoer\.main\.un8_j             Net         -        -       0.000     -           7         
-N_21503_i_i_o2_m1_0_a2          MUXCY       CI       In      -         4.317       -         
-N_21503_i_i_o2_m1_0_a2          MUXCY       O        Out     0.065     4.382       -         
-N_21503_i_i_o2_m1_0_a2          Net         -        -       9.433     -           4181      
-nextCtx\.j_14[6]                LUT2        I0       In      -         13.815      -         
-nextCtx\.j_14[6]                LUT2        O        Out     0.759     14.574      -         
-nextCtx\.j_14[6]                Net         -        -       2.109     -           511       
-nextCtx\.tx_data_17_142[2]      MUXF5       S        In      -         16.683      -         
-nextCtx\.tx_data_17_142[2]      MUXF5       O        Out     0.587     17.270      -         
-N_1132                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_158[2]      MUXF6       I0       In      -         17.270      -         
-nextCtx\.tx_data_17_158[2]      MUXF6       O        Out     0.369     17.639      -         
-N_1260                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_190[2]      MUXF7       I0       In      -         17.639      -         
-nextCtx\.tx_data_17_190[2]      MUXF7       O        Out     0.384     18.023      -         
-N_1516                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_254[2]      MUXF8       I1       In      -         18.023      -         
-nextCtx\.tx_data_17_254[2]      MUXF8       O        Out     0.384     18.407      -         
-N_2028                          Net         -        -       0.710     -           1         
-echoer\.tx_data_20_a3_a4[2]     LUT4        I1       In      -         19.117      -         
-echoer\.tx_data_20_a3_a4[2]     LUT4        O        Out     0.759     19.876      -         
-echoer\.tx_data_20_a3_a4[2]     Net         -        -       0.532     -           1         
-tx_data_RNO_4[2]                LUT3_L      I0       In      -         20.409      -         
-tx_data_RNO_4[2]                LUT3_L      LO       Out     0.759     21.168      -         
-echoer\.tx_data_1_1[2]          Net         -        -       0.532     -           1         
-tx_data_RNO_1[2]                LUT4        I2       In      -         21.700      -         
-tx_data_RNO_1[2]                LUT4        O        Out     0.759     22.459      -         
-echoer\.tx_data_1[2]            Net         -        -       0.532     -           1         
-tx_data_RNO[2]                  LUT4_L      I1       In      -         22.991      -         
-tx_data_RNO[2]                  LUT4_L      LO       Out     0.759     23.750      -         
-echoer\.tx_data_20[2]           Net         -        -       0.000     -           1         
-tx_data[2]                      FDE         D        In      -         23.750      -         
+echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.633       -         
+echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.019     4.652       -         
+echoer\.main\.un8_j             Net         -        -       1.278     -           3017      
+echoer\.j_RNIJDNK_0[8]          LUT4        I3       In      -         5.930       -         
+echoer\.j_RNIJDNK_0[8]          LUT4        O        Out     0.075     6.005       -         
+nextCtx\.j_14[8]                Net         -        -       0.934     -           1300      
+tx_data_RNO_373[7]              LUT6        I5       In      -         6.939       -         
+tx_data_RNO_373[7]              LUT6        O        Out     0.075     7.014       -         
+N_46707                         Net         -        -       0.225     -           1         
+tx_data_RNO_147[7]              LUT3_L      I2       In      -         7.239       -         
+tx_data_RNO_147[7]              LUT3_L      LO       Out     0.150     7.389       -         
+N_46708                         Net         -        -       0.225     -           1         
+tx_data_RNO_62[7]               LUT5_L      I4       In      -         7.614       -         
+tx_data_RNO_62[7]               LUT5_L      LO       Out     0.109     7.723       -         
+N_46716                         Net         -        -       0.225     -           1         
+tx_data_RNO_25[7]               LUT6_L      I5       In      -         7.947       -         
+tx_data_RNO_25[7]               LUT6_L      LO       Out     0.175     8.123       -         
+N_110_0                         Net         -        -       0.225     -           1         
+tx_data_RNO_9[7]                LUT6        I5       In      -         8.348       -         
+tx_data_RNO_9[7]                LUT6        O        Out     0.200     8.548       -         
+N_47512                         Net         -        -       0.000     -           1         
+tx_data_RNO_5[7]                MUXF7       I1       In      -         8.548       -         
+tx_data_RNO_5[7]                MUXF7       O        Out     0.261     8.809       -         
+m98_s_0muxnet_1_0               Net         -        -       0.000     -           1         
+tx_data_RNO_1[7]                MUXF8       I1       In      -         8.809       -         
+tx_data_RNO_1[7]                MUXF8       O        Out     0.049     8.858       -         
+N_46684                         Net         -        -       0.306     -           1         
+tx_data_RNO[7]                  LUT5_L      I4       In      -         9.164       -         
+tx_data_RNO[7]                  LUT5_L      LO       Out     0.075     9.239       -         
+tx_data_RNO[7]                  Net         -        -       0.000     -           1         
+tx_data[7]                      FDE         D        In      -         9.239       -         
 =============================================================================================
-Total path delay (propagation time + setup) of 23.351 is 8.082(34.6%) logic and 15.270(65.4%) route.
+Total path delay (propagation time + setup) of 6.104 is 2.261(37.0%) logic and 3.843(63.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Start clock path:
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                       Type                  Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+Start Clock :              ethernet_echo|clk                                                      
+------------                                                                                      
+clk                        Port                  clk      In      -         0.000       -         
+clk                        Net                   -        -       0.000     -           1         
+clk_ibuf_iso               IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso               IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso               Net                   -        -       0.600     -           1         
+clk_ibuf                   BUFG                  I        In      -         1.382       -         
+clk_ibuf                   BUFG                  O        Out     0.092     1.474       -         
+clk_c                      Net                   -        -       1.616     -           8347      
+echoer\.i_fast_fast[0]     FDE                   C        In      -         3.090       -         
+==================================================================================================
+
+
+End clock path:
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name               Type                  Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+Start Clock :      ethernet_echo|clk                                                      
+------------                                                                              
+clk                Port                  clk      In      -         0.000       -         
+clk                Net                   -        -       0.000     -           1         
+clk_ibuf_iso       IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso       IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso       Net                   -        -       0.600     -           1         
+clk_ibuf           BUFG                  I        In      -         1.382       -         
+clk_ibuf           BUFG                  O        Out     0.092     1.474       -         
+clk_c              Net                   -        -       1.616     -           8347      
+tx_data[7]         FDE                   C        In      -         3.090       -         
+==========================================================================================
 
 
 Path information for path number 5: 
-      Requested Period:                      22.047
-    - Setup time:                            -0.399
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         22.446
+      Requested Period:                      5.190
+    - Setup time:                            -0.045
+    + Clock delay at ending point:           3.090
+    = Required time:                         8.325
 
-    - Propagation time:                      23.750
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -1.304
+    - Propagation time:                      6.135
+    - Clock delay at starting point:         3.090
+    = Slack (non-critical) :                 -0.900
 
-    Number of logic level(s):                19
-    Starting point:                          echoer\.i_fast[16] / Q
-    Ending point:                            tx_data[2] / D
+    Number of logic level(s):                21
+    Starting point:                          echoer\.j_fast_fast_fast[9] / Q
+    Ending point:                            tx_data[7] / D
     The start point is clocked by            ethernet_echo|clk [rising] on pin C
     The end   point is clocked by            ethernet_echo|clk [rising] on pin C
 
 Instance / Net                              Pin      Pin               Arrival     No. of    
 Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
 ---------------------------------------------------------------------------------------------
-echoer\.i_fast[16]              FDE         Q        Out     0.592     0.592       -         
-echoer\.i_fast[16]              Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_lt16        LUT4        I0       In      -         1.302       -         
-echoer\.main\.un8_j_lt16        LUT4        O        Out     0.759     2.061       -         
-echoer\.main\.un8_j_lt16        Net         -        -       0.710     -           1         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     DI       In      -         2.771       -         
-echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     1.091     3.862       -         
+echoer\.j_fast_fast_fast[9]     FDE         Q        Out     0.337     3.427       -         
+echoer\.j_fast_fast_fast[9]     Net         -        -       0.578     -           17        
+echoer\.main\.un8_j_df8         LUT4        I3       In      -         4.005       -         
+echoer\.main\.un8_j_df8         LUT4        O        Out     0.190     4.194       -         
+echoer\.main\.un8_j_df8         Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     S        In      -         4.194       -         
+echoer\.main\.un8_j_cry[8]      MUXCY_L     LO       Out     0.255     4.450       -         
+echoer\.main\.un8_j_cry[8]      Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     CI       In      -         4.450       -         
+echoer\.main\.un8_j_cry[10]     MUXCY_L     LO       Out     0.019     4.468       -         
+echoer\.main\.un8_j_cry[10]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     CI       In      -         4.468       -         
+echoer\.main\.un8_j_cry[12]     MUXCY_L     LO       Out     0.019     4.487       -         
+echoer\.main\.un8_j_cry[12]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     CI       In      -         4.487       -         
+echoer\.main\.un8_j_cry[14]     MUXCY_L     LO       Out     0.019     4.505       -         
+echoer\.main\.un8_j_cry[14]     Net         -        -       0.000     -           1         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     CI       In      -         4.505       -         
+echoer\.main\.un8_j_cry[16]     MUXCY_L     LO       Out     0.019     4.524       -         
 echoer\.main\.un8_j_cry[16]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         3.862       -         
-echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.065     3.927       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     CI       In      -         4.524       -         
+echoer\.main\.un8_j_cry[18]     MUXCY_L     LO       Out     0.019     4.543       -         
 echoer\.main\.un8_j_cry[18]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         3.927       -         
-echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.065     3.992       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     CI       In      -         4.543       -         
+echoer\.main\.un8_j_cry[20]     MUXCY_L     LO       Out     0.019     4.561       -         
 echoer\.main\.un8_j_cry[20]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         3.992       -         
-echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.065     4.057       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     CI       In      -         4.561       -         
+echoer\.main\.un8_j_cry[22]     MUXCY_L     LO       Out     0.019     4.580       -         
 echoer\.main\.un8_j_cry[22]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.057       -         
-echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.065     4.122       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     CI       In      -         4.580       -         
+echoer\.main\.un8_j_cry[24]     MUXCY_L     LO       Out     0.019     4.598       -         
 echoer\.main\.un8_j_cry[24]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.122       -         
-echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.065     4.187       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     CI       In      -         4.598       -         
+echoer\.main\.un8_j_cry[26]     MUXCY_L     LO       Out     0.019     4.617       -         
 echoer\.main\.un8_j_cry[26]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.187       -         
-echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.065     4.252       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     CI       In      -         4.617       -         
+echoer\.main\.un8_j_cry[28]     MUXCY_L     LO       Out     0.019     4.636       -         
 echoer\.main\.un8_j_cry[28]     Net         -        -       0.000     -           1         
-echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.252       -         
-echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.065     4.317       -         
-echoer\.main\.un8_j             Net         -        -       0.000     -           7         
-N_21503_i_i_o2_m1_0_a2          MUXCY       CI       In      -         4.317       -         
-N_21503_i_i_o2_m1_0_a2          MUXCY       O        Out     0.065     4.382       -         
-N_21503_i_i_o2_m1_0_a2          Net         -        -       9.433     -           4181      
-nextCtx\.j_14[6]                LUT2        I0       In      -         13.815      -         
-nextCtx\.j_14[6]                LUT2        O        Out     0.759     14.574      -         
-nextCtx\.j_14[6]                Net         -        -       2.109     -           511       
-nextCtx\.tx_data_17_220[2]      MUXF5       S        In      -         16.683      -         
-nextCtx\.tx_data_17_220[2]      MUXF5       O        Out     0.587     17.270      -         
-N_1756                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_221[2]      MUXF6       I1       In      -         17.270      -         
-nextCtx\.tx_data_17_221[2]      MUXF6       O        Out     0.369     17.639      -         
-N_1764                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_253[2]      MUXF7       I0       In      -         17.639      -         
-nextCtx\.tx_data_17_253[2]      MUXF7       O        Out     0.384     18.023      -         
-N_2020                          Net         -        -       0.000     -           1         
-nextCtx\.tx_data_17_254[2]      MUXF8       I0       In      -         18.023      -         
-nextCtx\.tx_data_17_254[2]      MUXF8       O        Out     0.384     18.407      -         
-N_2028                          Net         -        -       0.710     -           1         
-echoer\.tx_data_20_a3_a4[2]     LUT4        I1       In      -         19.117      -         
-echoer\.tx_data_20_a3_a4[2]     LUT4        O        Out     0.759     19.876      -         
-echoer\.tx_data_20_a3_a4[2]     Net         -        -       0.532     -           1         
-tx_data_RNO_4[2]                LUT3_L      I0       In      -         20.409      -         
-tx_data_RNO_4[2]                LUT3_L      LO       Out     0.759     21.168      -         
-echoer\.tx_data_1_1[2]          Net         -        -       0.532     -           1         
-tx_data_RNO_1[2]                LUT4        I2       In      -         21.700      -         
-tx_data_RNO_1[2]                LUT4        O        Out     0.759     22.459      -         
-echoer\.tx_data_1[2]            Net         -        -       0.532     -           1         
-tx_data_RNO[2]                  LUT4_L      I1       In      -         22.991      -         
-tx_data_RNO[2]                  LUT4_L      LO       Out     0.759     23.750      -         
-echoer\.tx_data_20[2]           Net         -        -       0.000     -           1         
-tx_data[2]                      FDE         D        In      -         23.750      -         
+echoer\.main\.un8_j_cry[30]     MUXCY       CI       In      -         4.636       -         
+echoer\.main\.un8_j_cry[30]     MUXCY       O        Out     0.019     4.654       -         
+echoer\.main\.un8_j             Net         -        -       1.278     -           3017      
+echoer\.j_RNIJDNK_0[8]          LUT4        I3       In      -         5.932       -         
+echoer\.j_RNIJDNK_0[8]          LUT4        O        Out     0.075     6.007       -         
+nextCtx\.j_14[8]                Net         -        -       0.934     -           1300      
+tx_data_RNO_133[7]              LUT6        I5       In      -         6.941       -         
+tx_data_RNO_133[7]              LUT6        O        Out     0.142     7.083       -         
+N_2913_0                        Net         -        -       0.225     -           1         
+tx_data_RNO_57[7]               LUT6        I2       In      -         7.308       -         
+tx_data_RNO_57[7]               LUT6        O        Out     0.300     7.608       -         
+N_47580                         Net         -        -       0.225     -           1         
+tx_data_RNO_24[7]               LUT6        I5       In      -         7.833       -         
+tx_data_RNO_24[7]               LUT6        O        Out     0.259     8.092       -         
+N_46647                         Net         -        -       0.225     -           1         
+tx_data_RNO_9[7]                LUT6        I4       In      -         8.317       -         
+tx_data_RNO_9[7]                LUT6        O        Out     0.216     8.533       -         
+N_47512                         Net         -        -       0.000     -           1         
+tx_data_RNO_5[7]                MUXF7       I1       In      -         8.533       -         
+tx_data_RNO_5[7]                MUXF7       O        Out     0.261     8.795       -         
+m98_s_0muxnet_1_0               Net         -        -       0.000     -           1         
+tx_data_RNO_1[7]                MUXF8       I1       In      -         8.795       -         
+tx_data_RNO_1[7]                MUXF8       O        Out     0.049     8.844       -         
+N_46684                         Net         -        -       0.306     -           1         
+tx_data_RNO[7]                  LUT5_L      I4       In      -         9.150       -         
+tx_data_RNO[7]                  LUT5_L      LO       Out     0.075     9.225       -         
+tx_data_RNO[7]                  Net         -        -       0.000     -           1         
+tx_data[7]                      FDE         D        In      -         9.225       -         
 =============================================================================================
-Total path delay (propagation time + setup) of 23.351 is 8.082(34.6%) logic and 15.270(65.4%) route.
+Total path delay (propagation time + setup) of 6.090 is 2.319(38.1%) logic and 3.771(61.9%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Start clock path:
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                            Type                  Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+Start Clock :                   ethernet_echo|clk                                                      
+------------                                                                                           
+clk                             Port                  clk      In      -         0.000       -         
+clk                             Net                   -        -       0.000     -           1         
+clk_ibuf_iso                    IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso                    IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso                    Net                   -        -       0.600     -           1         
+clk_ibuf                        BUFG                  I        In      -         1.382       -         
+clk_ibuf                        BUFG                  O        Out     0.092     1.474       -         
+clk_c                           Net                   -        -       1.616     -           8347      
+echoer\.j_fast_fast_fast[9]     FDE                   C        In      -         3.090       -         
+=======================================================================================================
+
+
+End clock path:
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name               Type                  Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+Start Clock :      ethernet_echo|clk                                                      
+------------                                                                              
+clk                Port                  clk      In      -         0.000       -         
+clk                Net                   -        -       0.000     -           1         
+clk_ibuf_iso       IBUFG                 I        In      -         0.000       -         
+clk_ibuf_iso       IBUFG                 O        Out     0.782     0.782       -         
+clk_ibuf_iso       Net                   -        -       0.600     -           1         
+clk_ibuf           BUFG                  I        In      -         1.382       -         
+clk_ibuf           BUFG                  O        Out     0.092     1.474       -         
+clk_c              Net                   -        -       1.616     -           8347      
+tx_data[7]         FDE                   C        In      -         3.090       -         
+==========================================================================================
 
 
 
@@ -761,26 +1004,24 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 ---------------------------------------
 Resource Usage Report for ethernet_echo 
 
-Mapping to part: xc3s250evq100-4
+Mapping to part: xc6vlx75tff484-1
 Cell usage:
-FD              1 use
-FDE             8332 uses
-FDR             6 uses
-FDS             1 use
+FD              13 uses
+FDE             8334 uses
 GND             1 use
-MULT_AND        39 uses
-MUXCY           5 uses
-MUXCY_L         131 uses
-MUXF5           2007 uses
-MUXF6           771 uses
-MUXF7           169 uses
-MUXF8           29 uses
+MUXCY           2 uses
+MUXCY_L         118 uses
+MUXF7           61 uses
+MUXF8           27 uses
 VCC             1 use
 XORCY           94 uses
-LUT1            41 uses
-LUT2            356 uses
-LUT3            1662 uses
-LUT4            4834 uses
+LUT1            34 uses
+LUT2            2 uses
+LUT3            13 uses
+LUT4            175 uses
+LUT5            85 uses
+LUT6            5725 uses
+LUT6_2            2 uses
 
 I/O ports: 25
 I/O primitives: 24
@@ -791,18 +1032,21 @@ OBUF           11 uses
 BUFG           1 use
 
 I/O Register bits:                  0
-Register bits not including I/Os:   8340 (170%)
+Register bits not including I/Os:   8347 (8%)
 
-Global Clock Buffers: 1 of 24 (4%)
+Global Clock Buffers: 1 of 32 (3%)
 
 Total load per clock:
-   ethernet_echo|clk: 8340
+   ethernet_echo|clk: 8347
 
 Mapping Summary:
-Total  LUTs: 6893 (140%)
+Total  LUTs: 6008 (11%)
+
+
+ Number of unique control sets:              1030
 
 Mapper successful!
-Process took 0h:02m:40s realtime, 0h:02m:40s cputime
-# Tue Mar 22 12:41:32 2011
+Process took 0h:02m:54s realtime, 0h:02m:54s cputime
+# Tue Mar 22 12:49:48 2011
 
 ###########################################################]

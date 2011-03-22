@@ -1,6 +1,6 @@
 @N: CD630 :"D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd":14:7:14:19|Synthesizing work.ethernet_echo.inferred_sm_simple 
 Post processing for work.ethernet_echo.inferred_sm_simple
-@N: CL201 :"D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd":35:13:35:19|Trying to extract state machine for register NoName
+@N: CL201 :"D:\usr\mjt\Home\vhdl_compare\VHDL-compare\ethernet.vhd":32:13:32:19|Trying to extract state machine for register NoName
 Extracted state machine for register NoName
 State machine has 7 reachable states with original encodings of:
    0000001
