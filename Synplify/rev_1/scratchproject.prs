@@ -1,0 +1,65 @@
+#-- Synopsys, Inc.
+#-- Version E-2010.09-SP1-1
+#-- Project file D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\scratchproject.prs
+
+#project files
+add_file -vhdl -lib work "D:/usr/mjt/Home/vhdl_compare/VHDL-compare/ethernet.vhd"
+
+
+#implementation: "rev_1"
+impl -add D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+set_option -include_path D:/usr/mjt/Home/vhdl_compare/VHDL-compare/Synplify/
+
+#device options
+set_option -technology Spartan3E
+set_option -part XC3S250E
+set_option -package VQ100
+set_option -speed_grade -4
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+
+# mapper_options
+set_option -frequency auto
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Xilinx Spartan3
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fixgatedclocks 3
+set_option -fixgeneratedclocks 3
+set_option -no_sequential_opt 0
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+#VIF options
+set_option -write_vif 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "D:/usr/mjt/Home/vhdl_compare/VHDL-compare/Synplify/rev_1/ethernet.edf"
+impl -active "rev_1"

@@ -1,0 +1,15 @@
+Synopsys Xilinx Technology Constraint Extraction, Version map201009rcp1, Build 000R, Built Nov 11 2010 02:29:33
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09-SP1-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Synopsys\fpga_E201009SP11\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Synopsys\fpga_E201009SP11\lib\xilinx\gttype.txt> 
+Finished Timing Extraction Phase. (Time elapsed 0h:00m:24s; Memory used current: 81MB peak: 84MB)
+
+@N: BN225 |Writing default property annotation file D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap.
+Timing Extraction successful!
+Process took 0h:00m:24s realtime, 0h:00m:24s cputime
+# Tue Mar 22 12:38:50 2011
+
+###########################################################]

@@ -1,0 +1,130 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Mar 22 12:41:31 2011
+#
+
+
+Top view:               ethernet_echo
+Requested Frequency:    45.4 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.456
+
+                      Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock        Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------
+ethernet_echo|clk     45.4 MHz      42.8 MHz      22.047        23.352        -1.304     inferred     Autoconstr_clkgroup_0
+===========================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------
+Starting           Ending             |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------
+ethernet_echo|clk  ethernet_echo|clk  |  0.000       0.456  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: ethernet_echo|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                       Arrival          
+Instance                Reference             Type     Pin     Net                     Time        Slack
+                        Clock                                                                           
+--------------------------------------------------------------------------------------------------------
+un1_j_L0[0]             ethernet_echo|clk     FDR      Q       un1_j_L0_0[0]           0.414       0.747
+un1_j_L0[1]             ethernet_echo|clk     FDR      Q       un1_j_L0[1]             0.414       0.857
+un1_j_L0[2]             ethernet_echo|clk     FDR      Q       un1_j_L0_0[2]           0.414       0.857
+tx_eof_n                ethernet_echo|clk     FD       Q       tx_eof_n_c              0.414       2.025
+echoer\.j_L1[31]        ethernet_echo|clk     FDE      Q       echoer\.j_L1[31]        0.414       2.225
+echoer\.donereading     ethernet_echo|clk     FDE      Q       echoer\.donereading     0.414       2.255
+echoer\.i[31]           ethernet_echo|clk     FDE      Q       echoer\.i[31]           0.414       2.260
+echoer\.j_L0[28]        ethernet_echo|clk     FDE      Q       echoer\.j_L0[28]        0.414       2.260
+echoer\.j_L0[31]        ethernet_echo|clk     FDE      Q       echoer\.j_L0[31]        0.414       2.265
+un1_j_L0[6]             ethernet_echo|clk     FDS      Q       un1_j_L0_0[6]           0.414       2.267
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                       Required          
+Instance             Reference             Type     Pin     Net                     Time         Slack
+                     Clock                                                                            
+------------------------------------------------------------------------------------------------------
+un1_j_L0[0]          ethernet_echo|clk     FDR      R       un1_j_L0_0[0]           0.637        0.456
+un1_j_L0[1]          ethernet_echo|clk     FDR      R       un1_j_L0_0[0]           0.637        0.456
+un1_j_L0[6]          ethernet_echo|clk     FDS      S       un1_j_L0_0[0]           0.637        0.456
+un1_j_L0[2]          ethernet_echo|clk     FDR      R       un1_j_L0[1]             0.637        0.533
+un1_j_L0[4]          ethernet_echo|clk     FDR      R       un1_j_L0_0[2]           0.637        0.533
+un1_j_L0[5]          ethernet_echo|clk     FDR      R       un1_j_L0_0[2]           0.637        0.533
+tx_sof_n             ethernet_echo|clk     FDE      CE      N_21464_i               0.389        1.754
+echoer\.start        ethernet_echo|clk     FDE      CE      un1_start51_1_i_i_i     0.389        1.779
+tx_eof_n             ethernet_echo|clk     FD       D       tx_eof_ne_0             -0.279       1.785
+echoer\.j_L1[30]     ethernet_echo|clk     FDE      D       N_21501_i               -0.279       1.925
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.093
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.637
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.456
+
+    Number of logic level(s):                0
+    Starting point:                          un1_j_L0[0] / Q
+    Ending point:                            un1_j_L0[0] / R
+    The start point is clocked by            ethernet_echo|clk [rising] on pin C
+    The end   point is clocked by            ethernet_echo|clk [rising] on pin C
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+un1_j_L0[0]        FDR      Q        Out     0.414     0.414       -         
+un1_j_L0_0[0]      Net      -        -       0.679     -           5         
+un1_j_L0[0]        FDR      R        In      -         1.093       -         
+=============================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

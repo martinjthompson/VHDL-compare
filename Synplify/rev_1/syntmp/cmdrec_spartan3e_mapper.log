@@ -1,0 +1,15 @@
+C:\Synopsys\fpga_E201009SP11\bin\m_xilinx.exe  -prodtype synplify_pro -encrypt  -pro  -part XC3S250EVQ100-4   -maxfan 10000  -m1  -pipe   -fixgatedclocks 3 -fixgeneratedclocks 3        -reporting_ctd 0 -flow mapping  -mp 1 -prjfile  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\scratchproject.prs  -implementation rev_1 -licensetype  synplifypro  -oedif D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.edf  -autoconstraint  -freq 1.000  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd  -sap  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap  -otap  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.tap  -omap  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.map  -devicelib  C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim_m10i.v  -devicelib  C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim.v  -ena_vif  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\verif\ethernet.vif  -sap  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap  -ologparam  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\syntmp\ethernet.plg  -osyn  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srm  -prjdir D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\  -log  D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\synlog\ethernet_Spartan3E_Mapper.srr 
+rc:1 success:1
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\scratchproject.prs|o|1300796740
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet_prepass.srd|i|1300797530
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap|o|1300797530
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.tap|o|0
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.map|o|1300797692
+C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim_m10i.v|i|1289471776
+C:\Synopsys\fpga_E201009SP11\lib\xilinx\unisim.v|i|1289471776
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\verif\ethernet.vif|o|1300797685
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.sap|o|1300797530
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\syntmp\ethernet.plg|o|1300797692
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\ethernet.srm|o|1300797688
+D:\usr\mjt\Home\vhdl_compare\VHDL-compare\Synplify\rev_1\synlog\ethernet_Spartan3E_Mapper.srr|o|1300797692
+C:\Synopsys\fpga_E201009SP11\bin\m_xilinx.exe|i|1289472044

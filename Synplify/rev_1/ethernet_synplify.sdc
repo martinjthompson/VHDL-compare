@@ -1,0 +1,1 @@
+#define_clock -internal  {6} [get_ports {clk}] -name  {ethernet_echo|clk} -ref_rise  {0.0} -ref_fall  {11.023650} -uncertainty  {0.000000} -period  {22.047300} -clockgroup  {Autoconstr_clkgroup_0} -rise  {0.0} -fall  {11.023650} 

@@ -1,0 +1,18 @@
+@P:  Worst Slack : -1.304
+@P:  ethernet_echo|clk - Estimated Frequency : 42.8 MHz
+@P:  ethernet_echo|clk - Requested Frequency : 45.4 MHz
+@P:  ethernet_echo|clk - Estimated Period : 23.352
+@P:  ethernet_echo|clk - Requested Period : 22.047
+@P:  ethernet_echo|clk - Slack : -1.304
+@P:  Worst Slack(min analysis) : 0.456
+@P:  ethernet_echo|clk - Estimated Frequency(min analysis) : 42.8 MHz
+@P:  ethernet_echo|clk - Requested Frequency(min analysis) : 45.4 MHz
+@P:  ethernet_echo|clk - Estimated Period(min analysis) : 23.352
+@P:  ethernet_echo|clk - Requested Period(min analysis) : 22.047
+@P:  ethernet_echo|clk - Slack(min analysis) : -1.304
+@P: ethernet_echo Part : xc3s250evq100-4
+@P: ethernet_echo I/O primitives : 24
+@P: ethernet_echo I/O Register bits : 0
+@P: ethernet_echo Register bits (Non I/O) : 8340 (170%)
+@P: ethernet_echo Total Luts : 6893 (140%)
+@P:  CPU Time : 0h:02m:40s
