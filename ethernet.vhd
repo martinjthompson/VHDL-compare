@@ -28,7 +28,6 @@ entity ethernet_echo is
 
 end entity;
 architecture inferred_sm_simple of ethernet_echo is
-
 begin  -- architecture inferred_sm
     echoer : process is
         type t_buffer is array (natural range <>) of std_logic_vector(7 downto 0);
@@ -37,11 +36,11 @@ begin  -- architecture inferred_sm
         variable i, j        : integer;
         variable doneReading : boolean;
     begin  -- process echoer
-        tx_sof_n     <= '1';                                 -- We are not at the start of a frame
-        tx_src_rdy_n <= '1';
-        tx_eof_n     <= '1';                                 --  We are not at the end of a frame
-        start        := rx_sof_n = '0' and rx_src_rdy_n = '0';   -- The start condition
         main : loop                                          -- Process packets indefinately
+            wait until rising_edge(clk); exit main when resetn_clk = '0';
+            tx_sof_n     <= '1';                                 -- We are not at the start of a frame
+            tx_src_rdy_n <= '1';
+            tx_eof_n     <= '1';                                 --  We are not at the end of a frame
             -- Wait for SOF and SRC_RDY
             while not start loop
                 wait until rising_edge(clk); exit main when resetn_clk = '0';
@@ -55,8 +54,8 @@ begin  -- architecture inferred_sm
             while not doneReading loop
                 if rx_src_rdy_n = '0' then
                     buff(i) := rx_data;
-                    i       :=i+1;
-                end if;
+                    i       := i+1;
+                end if; 
                 doneReading := rx_eof_n = '0';
                 wait until rising_edge(clk); exit main when resetn_clk = '0';
             end loop;
@@ -92,7 +91,7 @@ begin  -- architecture inferred_sm
             tx_eof_n     <= '1';
             start        := false;  -- No longer at start of frame
             wait until rising_edge(clk); exit main when resetn_clk = '0';
-                                    -- End of frame, ready for next frame
+          -- End of frame, ready for next frame
         end loop;
     end process echoer;
     
